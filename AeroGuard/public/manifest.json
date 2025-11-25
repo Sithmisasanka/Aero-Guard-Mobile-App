@@ -1,0 +1,32 @@
+{
+  "name": "AeroGuard - Air Quality Monitor",
+  "short_name": "AeroGuard",
+  "description": "Monitor air quality and get health recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#007AFF",
+  "theme_color": "#007AFF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "utilities", "weather"],
+  "screenshots": [
+    {
+      "src": "/assets/splash-icon.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}
