@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 16.17.4",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": { "EXPO_USE_NATIVE_ICONS": "1" }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": { "EXPO_USE_NATIVE_ICONS": "1" }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": { "buildType": "app-bundle" },
+      "env": { "EXPO_USE_NATIVE_ICONS": "1" }
+    },
+    "store": {
+      "distribution": "store",
+      "android": { "buildType": "app-bundle" },
+      "env": { "EXPO_USE_NATIVE_ICONS": "1" }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

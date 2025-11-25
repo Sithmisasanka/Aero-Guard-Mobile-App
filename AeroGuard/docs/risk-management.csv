@@ -1,0 +1,7 @@
+Task Name,Type,Probability,Impact,Risk Score,Mitigation Plan,Start Date,Due Date,Risk Owner,Status,Priority,Sprint Tasks Affected
+Backend API delays,Technical,High,High,9,"Allocate extra dev resources; daily syncs",28-Oct-2025,03-Nov-2025,Backend Lead,Identified,Urgent,"User Auth Module, Data API Endpoints"
+UI Design delay,Resource,Medium,Medium,4,"Prepare alternate UI drafts; cross-train team",28-Oct-2025,03-Nov-2025,UI Designer,Identified,Normal,"Dashboard UI, Profile Page"
+Deployment failure,Technical,Medium,High,6,"Test staging environment; backup plan",28-Oct-2025,03-Nov-2025,DevOps,Identified,High,"Full App Deployment, CI/CD Pipeline"
+Missing client requirements,External,High,Medium,6,"Daily client check-ins; requirement freeze by 30-Oct",28-Oct-2025,30-Oct-2025,Project Manager,Identified,High,"All Sprint Tasks"
+Data integration error,Technical,Medium,High,6,"Unit tests; code review; rollback plan",28-Oct-2025,03-Nov-2025,Backend Lead,Identified,High,"Payment Module, Analytics Module"
+Team absence due to illness,Resource,Low,Medium,2,"Adjust task allocation; flexible deadlines",28-Oct-2025,03-Nov-2025,Project Manager,Identified,Low,"All Sprint Tasks"
