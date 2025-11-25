@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "AeroGuard",
+    "slug": "AeroGuard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "aeroguard",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aseshnemal.aeroguard",
+        "buildNumber": "2",
+      "config": {
+        "googleMapsApiKey": "$EXPO_PUBLIC_GOOGLE_MAPS_API_KEY"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "This app uses location to show your current position and provide location-based AQI data and safe route recommendations.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses location to show your current position and provide location-based AQI data and safe route recommendations."
+      },
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.aeroguard.mobile",
+        "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "$EXPO_PUBLIC_GOOGLE_MAPS_API_KEY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "70f9930d-6b17-4678-8c32-4fe57d27c923"
+      }
+    },
+    "owner": "aseshnemal",
+    "plugins": [
+      "expo-web-browser"
+    ]
+  }
+}
